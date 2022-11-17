@@ -10,22 +10,22 @@ else if (y == 2) { //if y equals 2 it means paper
 else if (y == 3) { //if y equals 3 it means scissors
     sessionStorage.opponentsschoice = 'scissors'
 }
-if ((sessionStorage.playerschoice == 'rock') && (sessionStorage == 'paper')) {
+if ((sessionStorage.playerschoice == 'rock') && (sessionStorage.opponentsschoice == 'paper')) {
 sessionStorage.result = 'lose';
 }
-else if ((sessionStorage.playerschoice == 'rock') && (sessionStorage == 'scissors')){
+else if ((sessionStorage.playerschoice == 'rock') && (sessionStorage.opponentsschoice == 'scissors')){
     sessionStorage.result = 'won';   
 }
-else if ((sessionStorage.playerschoice == 'paper') && (sessionStorage == 'scissors')){
+else if ((sessionStorage.playerschoice == 'paper') && (sessionStorage.opponentsschoice == 'scissors')){
     sessionStorage.result = 'lose';   
 }
-else if ((sessionStorage.playerschoice == 'paper') && (sessionStorage == 'rock')){
+else if ((sessionStorage.playerschoice == 'paper') && (sessionStorage.opponentsschoice == 'rock')){
     sessionStorage.result = 'won';   
 }
-else if ((sessionStorage.playerschoice == 'scissors') && (sessionStorage == 'rock')){
+else if ((sessionStorage.playerschoice == 'scissors') && (sessionStorage.opponentsschoice == 'rock')){
     sessionStorage.result = 'lose';   
 }
-else if ((sessionStorage.playerschoice == 'scissors') && (sessionStorage == 'paper')){
+else if ((sessionStorage.playerschoice == 'scissors') && (sessionStorage.opponentsschoice == 'paper')){
     sessionStorage.result = 'won';   
 }
  }
