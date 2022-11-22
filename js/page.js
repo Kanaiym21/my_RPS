@@ -32,7 +32,7 @@ else if (sessionStorage.playerschoice == sessionStorage.opponentschoice) { //if 
 sessionStorage.result = 'tie';
 }
 if (sessionStorage.result == 'lose') {
-document.getElementById('result').innerHTML='You lost.It was unfortunate';
+document.getElementById('result').innerHTML='You lost. It was unfortunate';
 }
 else if (sessionStorage.result == 'won') {
     document.getElementById('result').innerHTML='Good job. You won!';
