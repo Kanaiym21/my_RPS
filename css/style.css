@@ -39,7 +39,7 @@ h1:hover {
 }
 section {
   border: 2px solid #333;
-  margin: 1rem 1;
+  margin: 1rem 6rem;
   padding: 1rem;
   background-color: #111;
 }
@@ -71,8 +71,8 @@ main section {
 section.scoreboard {
   border-style: dashed;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1 fr;
+  grid-gap: 0.5rem;
 }
 @media screen and (max-width: 768px)  {
   main {grid-template-columns: 1fr;}
