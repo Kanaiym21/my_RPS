@@ -43,6 +43,12 @@ section {
   padding: 1rem;
   background-color: #111;
 }
+.ochoice {
+  margin-left: 3rem;
+}
+.pchoice {
+  margin-right: 3rem;
+}
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
