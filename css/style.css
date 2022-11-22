@@ -95,8 +95,10 @@ section.scoreboard {
   font-weight: 800;
   line-height: 1;
   margin-bottom: .25rem;
+  margin-right: .25rem;
 }
 p.label {
   line-height: 1;
   margin-top: 0;
+  margin-right: 0;
 }
