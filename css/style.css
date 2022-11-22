@@ -1,5 +1,6 @@
 body {
   background-color: #111;
+  color: PaleGoldenRod;
 }
 
 .container {
@@ -38,9 +39,9 @@ h1:hover {
 }
 section {
   border: 2px solid #333;
-  margin: 1rem 0;
+  margin: 1rem 1;
   padding: 1rem;
-  background-color: PaleGoldenRod;
+  background-color: #111;
 }
 main {
   display: grid;
